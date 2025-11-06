@@ -1,0 +1,27 @@
+/* App.css — small app-specific styles that complement Tailwind utilities */
+
+:root {
+	--brand-500: #16a34a; /* emerald-600-ish fallback */
+}
+
+.header-logo {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.hero-custom {
+	background: linear-gradient(180deg, rgba(16,185,129,0.06), rgba(16,185,129,0.02));
+}
+
+.sr-only {
+	position: absolute !important;
+	height: 1px; width: 1px;
+	overflow: hidden; clip: rect(1px, 1px, 1px, 1px);
+	white-space: nowrap; border: 0; padding: 0; margin: -1px;
+}
+
+/* small responsive tweak for header spacing */
+@media (min-width: 768px) {
+	header .h-16 { height: 72px; }
+}
