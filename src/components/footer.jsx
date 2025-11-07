@@ -77,12 +77,12 @@ export default function Footer() {
 					</div>
 
 					{/* Card 4: Get in touch */}
-					<div className="p-6 rounded-lg md:ml-6 lg:ml-15">
+					<div className="p-6 rounded-lg md:ml-6 lg:ml-6">
 						<h4 className="text-white font-semibold mb-3 underline decoration-emerald-300 decoration-2 underline-offset-6">Get in touch</h4>
 						<div className="text-sm text-white space-y-3">
 							<div className="flex items-start gap-2">
 								<div className="text-emerald-600 mt-1"><FaMapMarkerAlt /></div>
-								<div>Aiswaryam Garden, Perumal Kovil Karadu, Sivathapuram<br />Salem - 636 307</div>
+								<div>Aiswaryam Garden, Perumal Kovil Karadu, Sivathapuram(Silamboli Thottam),<br />Salem - 636 307</div>
 							</div>
 							<div className="flex flex-col space-y-2">
 								<div className="flex items-center gap-2">
