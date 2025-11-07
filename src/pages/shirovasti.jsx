@@ -47,7 +47,7 @@ export default function Shirovasti() {
           <section className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div className="w-full">
               <img
-                src="/images/shirovasti.jpg"
+                src="/images/shirovasti2.png"
                 alt="Shirovasti treatment - oil therapy"
                 className="w-full h-auto shadow-lg object-cover"
               />

@@ -47,7 +47,7 @@ export default function Januvasti() {
           <section className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div className="w-full">
               <img
-                src="/images/januvasti.png"
+                src="/images/januvasti2.png"
                 alt="Januvasti Treatment"
                 className="w-full h-auto shadow-lg object-cover"
               />

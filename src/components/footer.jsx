@@ -13,11 +13,11 @@ export default function Footer() {
 					{/* Card 1: Logo + Ayurveda + para + socials */}
 					<div className="p-6 rounded-lg">
 						<div className="flex items-center gap-3">
-							<div className="w-12 h-12 rounded-full bg-white flex items-center justify-center text-emerald-600">
-								<FaLeaf className="w-6 h-6" />
+							<div className="w-12 h-12 rounded-full bg-white flex items-center justify-center overflow-hidden">
+								<img src="/images/logo3.png" alt="Ayurveda logo" className="w-12 h-12 object-cover" />
 							</div>
 							<div>
-								<div className="text-lg font-semibold text-white">Ayurveda</div>
+								<div className="text-lg font-semibold text-white">Kerala Ayurveda Hospital</div>
 							</div>
 						</div>
 						<p className="mt-3 text-white text-sm">Traditional healing and natural therapies to restore balance and vitality. Personalized plans for lasting wellbeing.</p>
@@ -82,15 +82,21 @@ export default function Footer() {
 						<div className="text-sm text-white space-y-3">
 							<div className="flex items-start gap-2">
 								<div className="text-emerald-600 mt-1"><FaMapMarkerAlt /></div>
-								<div>123 Wellness Ave, Suite 4<br />Bangalore, IN</div>
+								<div>Aiswaryam Garden, Perumal Kovil Karadu, Sivathapuram<br />Salem - 636 307</div>
 							</div>
-							<div className="flex items-center gap-2">
-								<div className="text-emerald-600"><FaPhoneAlt /></div>
-								<a href="tel:8882003234" className="text-white hover:text-emerald-300">888-2003-234</a>
+							<div className="flex flex-col space-y-2">
+								<div className="flex items-center gap-2">
+									<div className="text-emerald-600"><FaPhoneAlt /></div>
+									<a href="tel:8921605977" className="text-white hover:text-emerald-300">8921605977</a>
+								</div>
+								<div className="flex items-center gap-2">
+									<div className="text-emerald-600"><FaPhoneAlt /></div>
+									<a href="tel:9843416240" className="text-white hover:text-emerald-300">9843416240</a>
+								</div>
 							</div>
 							<div className="flex items-center gap-2">
 								<div className="text-emerald-600"><FaEnvelope /></div>
-								<a href="mailto:info@ayurveda.example" className="text-white hover:text-emerald-300">info@ayurveda.example</a>
+								<a href="mailto:info@ayurveda.example" className="text-white hover:text-emerald-300">kayurvedha@gmail.com</a>
 							</div>
 						</div>
 					</div>
@@ -98,7 +104,7 @@ export default function Footer() {
 
 				<div className="mt-8 border-t border-gray-100 pt-6">
 					<div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center md:items-center justify-between text-sm text-white gap-2">
-						<div className="text-left">© {new Date().getFullYear()} Ayurveda. All rights reserved.</div>
+						<div className="text-left">© {new Date().getFullYear()} Kerala Ayurveda Hospital. All rights reserved.</div>
 						<div className="flex items-center gap-2 mt-2 md:mt-0 text-xs md:text-sm">
 							<a href="/terms" className="text-white hover:text-emerald-300 font-semibold md:font-normal">Terms of Use</a>
 							<span aria-hidden="true" className="text-white opacity-60 px-2">•</span>

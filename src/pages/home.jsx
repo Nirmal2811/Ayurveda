@@ -428,7 +428,7 @@ export default function Home() {
 							viewport={{ once: true, amount: 0.5 }}
 							transition={{ duration: 1.0, ease: 'easeOut', delay: 0.2 }}
 						>
-							Feugiat fusce blandit euismod felis mollis auctor gravida accumsan ipsum. Eleifend ligula senectus tincidunt commodo vivamus lobortis consectetur auctor tempor in ac. Placerat si habitasse eget conubia volutpat.
+							Experience the healing power of Ayurveda with our range of authentic treatments designed to restore balance and promote holistic wellness. Book your session today and embark on a journey to better health.
 						</motion.p>
 						<motion.div
 							className="flex flex-col sm:flex-row gap-4 sm:gap-6"
@@ -473,7 +473,7 @@ export default function Home() {
 									transition={{ duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94], delay: 0.2 }}
 									viewport={{ once: true }}
 								>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.
+									Discover the transformative power of Ayurveda with our expert team dedicated to your holistic wellness. We combine ancient wisdom with modern practices to create personalized treatment plans that nurture your body, mind, and spirit.
 								</motion.p>
 							</motion.div>
 
@@ -491,7 +491,7 @@ export default function Home() {
 									</div>
 									<div>
 										<h4 className="text-lg font-semibold text-gray-900 mb-2">100% Organic Herbal</h4>
-										<p className="text-gray-600">Nisl pharetra lobortis mi litora ultrices si. Enim tellus senectus dignissim cras phasellus netus.</p>
+										<p className="text-gray-600">Experience the healing power of nature with our 100% organic herbal treatments, carefully crafted to restore balance and promote wellness.</p>
 									</div>
 								</motion.div>
 
@@ -508,7 +508,7 @@ export default function Home() {
 									</div>
 									<div>
 										<h4 className="text-lg font-semibold text-gray-900 mb-2">Professional Therapist</h4>
-										<p className="text-gray-600">Nisl pharetra lobortis mi litora ultrices si. Enim tellus senectus dignissim cras phasellus netus.</p>
+										<p className="text-gray-600">Our team of experienced therapists is dedicated to providing personalized care and support throughout your healing journey.</p>
 									</div>
 								</motion.div>
 
@@ -525,7 +525,7 @@ export default function Home() {
 									</div>
 									<div>
 										<h4 className="text-lg font-semibold text-gray-900 mb-2">Hereditary Recipe</h4>
-										<p className="text-gray-600">Nisl pharetra lobortis mi litora ultrices si. Enim tellus senectus dignissim cras phasellus netus.</p>
+										<p className="text-gray-600">Experience the wisdom of generations with our hereditary recipes, passed down through the ages to promote healing and balance.</p>
 									</div>
 								</motion.div>
 							</div>
@@ -583,7 +583,7 @@ export default function Home() {
 							transition={{ duration: 0.7, ease: 'easeOut', delay: 0.08 }}
 							viewport={{ once: true }}
 						>
-							<p className="text-gray-700 leading-relaxed mt-3 md:mt-0 pl-0 md:-ml-8 lg:-ml-14">Lacus blandit praesent facilisis vehicula parturient iaculis. Quam nam ex efficitur interdum adipiscing. Ex nostra cubilia penatibus hac venenatis. Cubilia quisque metus primis phasellus sodales hac enim scelerisque lacinia maecenas consectetuer.</p>
+							<p className="text-gray-700 leading-relaxed mt-3 md:mt-0 pl-0 md:-ml-8 lg:-ml-14">Experience the healing power of Ayurveda with our range of authentic treatments designed to restore balance and promote holistic wellness. Book your session today and embark on a journey to better health.</p>
 							{/* small emerald horizontal line (thicker) */}
 							<div className="mt-2 w-24 h-1 bg-emerald-600 rounded-full md:-ml-8 lg:-ml-14" aria-hidden="true"></div>
 						</motion.div>
@@ -648,7 +648,7 @@ export default function Home() {
 
 									{/* Card 5 */}
 									<motion.article className="bg-white overflow-hidden shadow-md relative h-64 sm:h-72 md:h-80 lg:h-68" whileHover="hover">
-										<motion.img src="/images/januvasti.png" alt="Januvasti" className="w-full h-full object-cover" initial={{ scale: 1 }} variants={{ hover: { scale: 1.04 } }} transition={{ duration: 0.38 }} />
+										<motion.img src="/images/januvasti2.png" alt="Januvasti" className="w-full h-full object-cover" initial={{ scale: 1 }} variants={{ hover: { scale: 1.04 } }} transition={{ duration: 0.38 }} />
 										<div className="absolute inset-0 flex items-end">
 											<div className="w-full bg-gradient-to-t from-black/60 to-transparent p-6">
 												<h3 className="text-xl font-semibold text-white">Januvasti — Knee Therapy</h3>
@@ -660,7 +660,7 @@ export default function Home() {
 
 									{/* Card 6 - same design as Card 1 */}
 									<motion.article className="bg-white overflow-hidden shadow-md relative lg:row-span-2" whileHover="hover">
-										<motion.img src="/images/shirovasti.jpg" alt="Shirovasti" className="w-full h-80 sm:h-96 md:h-[28rem] lg:h-[36rem] object-cover" initial={{ scale: 1 }} variants={{ hover: { scale: 1.03, y: -6 } }} transition={{ duration: 0.45 }} />
+										<motion.img src="/images/shirovasti2.png" alt="Shirovasti" className="w-full h-80 sm:h-96 md:h-[28rem] lg:h-[36rem] object-cover" initial={{ scale: 1 }} variants={{ hover: { scale: 1.03, y: -6 } }} transition={{ duration: 0.45 }} />
 										{/* overlay: gradient background at bottom with white text */}
 										<div className="absolute inset-0 flex items-end">
 											<div className="w-full bg-gradient-to-t from-black/60 to-transparent p-6">
@@ -749,7 +749,7 @@ export default function Home() {
 											<div className="flex-shrink-0 w-12 h-12 rounded-full bg-emerald-600 text-white flex items-center justify-center font-bold">1</div>
 											<div>
 												<h4 className="text-lg font-semibold text-gray-800">Consultation with our experts</h4>
-												<p className="mt-2 text-gray-600">Cursus potenti maecenas nulla sem letius est torquent luctus. Egestas si efficitur consectetuer litora per augue.</p>
+												<p className="mt-2 text-gray-600">Get personalized advice and treatment plans tailored to your unique needs.</p>
 											</div>
 										</div>
 									</motion.div>
@@ -766,7 +766,7 @@ export default function Home() {
 											<div className="flex-shrink-0 w-12 h-12 rounded-full bg-emerald-600 text-white flex items-center justify-center font-bold">2</div>
 											<div>
 												<h4 className="text-lg font-semibold text-gray-800">Get an appointment</h4>
-												<p className="mt-2 text-gray-600">Cursus potenti maecenas nulla sem letius est torquent luctus. Egestas si efficitur consectetuer litora per augue.</p>
+												<p className="mt-2 text-gray-600">Schedule your visit at a time that works for you and take the first step towards wellness.</p>
 											</div>
 										</div>
 									</motion.div>
@@ -783,7 +783,7 @@ export default function Home() {
 											<div className="flex-shrink-0 w-12 h-12 rounded-full bg-emerald-600 text-white flex items-center justify-center font-bold">3</div>
 											<div>
 												<h4 className="text-lg font-semibold text-gray-800">Enjoy your service</h4>
-												<p className="mt-2 text-gray-600">Cursus potenti maecenas nulla sem letius est torquent luctus. Egestas si efficitur consectetuer litora per augue.</p>
+												<p className="mt-2 text-gray-600">Relax and experience the benefits of our holistic treatments, designed to rejuvenate your body and mind.</p>
 											</div>
 										</div>
 									</motion.div>
@@ -824,7 +824,7 @@ export default function Home() {
 										viewport={{ once: true, amount: 0.3 }}
 										transition={{ duration: 0.6, ease: 'easeOut', delay: 0.5 }}
 									>
-										Eu turpis ornare bibendum sodales facilisi eros. Id vitae parturient magna ad habitant magnis nec. Congue semper vitae morbi per amet vivamus maximus eu vulputate. Nascetur quam bibendum ligula adipiscing phasellus rutrum sapien magnis nisl pede per. Molestie hac volutpat maecenas eu auctor cursus curabitur vivamus nullam.
+										Experience the healing power of Ayurveda with our range of authentic treatments designed to restore balance and promote holistic wellness. Book your session today and embark on a journey to better health.
 									</motion.p>
 
 									<div className="mt-6 grid grid-cols-2 gap-4 items-center">
@@ -841,7 +841,8 @@ export default function Home() {
 											</div>
 											<div className="text-center sm:text-left mt-2 sm:mt-0">
 												<div className="text-lg font-semibold text-gray-800">Call Us Now !</div>
-												<div className="mt-2 text-gray-600">888-2003-234</div>
+												<div className="mt-2 text-gray-600">89216 05977</div>
+												
 											</div>
 										</motion.div>
 										<motion.div 

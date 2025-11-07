@@ -13,12 +13,12 @@ export default function Header() {
 					{/* Left: logo + text */}
 					<div className="flex items-center flex-1 md:flex-none">
 						<a href="/" className="flex items-center space-x-3">
-							<div className="w-10 h-10 rounded-full bg-gradient-to-br from-emerald-500 to-green-400 flex items-center justify-center shadow-md">
-								<svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-white" viewBox="0 0 24 24" fill="currentColor">
-									<path d="M12 2C8 6 5 9 5 13c0 4.418 3.582 8 8 8s8-3.582 8-8c0-4-3-7-9-11z" />
-								</svg>
+							<img src="/images/logo3.png" alt="Ayurveda logo" className="w-10 h-10 rounded-full object-cover shadow-md" />
+							<span className="text-lg font-semibold text-gray-800 hidden md:inline">Kerala Ayurveda Hospital</span>
+							<div className="md:hidden flex flex-col leading-tight">
+								<span className="text-sm font-semibold text-gray-800">Kerala Ayurveda</span>
+								<span className="text-sm font-semibold text-gray-800 -mt-0.5">Hospital</span>
 							</div>
-							<span className="text-lg font-semibold text-gray-800">Ayurveda</span>
 						</a>
 					</div>
 
@@ -39,14 +39,14 @@ export default function Header() {
 
 					{/* Right: CTA - hidden on small screens */}
 					<div className="hidden md:flex items-center md:flex-none">
-						<a href="tel:+1234567890" className="inline-flex items-center gap-2 px-4 py-2 bg-emerald-600 text-white rounded-lg shadow hover:bg-emerald-700 transition">
+						<a href="tel:983416240" className="inline-flex items-center gap-2 px-4 py-2 bg-emerald-600 text-white rounded-lg shadow hover:bg-emerald-700 transition" aria-label="Call us at 983416240">
 							<FiPhone className="w-5 h-5" />
 							<span className="font-medium">Call us now</span>
 						</a>
 					</div>
 
 					{/* Mobile: centered menu button (absolute) */}
-					<div className="md:hidden absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
+					<div className="md:hidden absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 translate-x-[1px]">
 						{/* static gray box */}
 						<button
 							onClick={() => setOpen(!open)}
@@ -67,7 +67,7 @@ export default function Header() {
 
 					{/* Mobile: call button on the right (keeps flow for justify-between) */}
 					<div className="md:hidden flex items-center">
-						<a href="tel:+1234567890" aria-label="Call us now" className="inline-flex items-center gap-2 px-3 py-2 bg-emerald-600 text-white rounded-md text-sm font-medium hover:bg-emerald-700 focus:outline-none focus:ring-2 focus:ring-emerald-500">
+						<a href="tel:983416240" aria-label="Call us at 983416240" className="inline-flex items-center gap-2 px-3 py-2 bg-emerald-600 text-white rounded-md text-sm font-medium hover:bg-emerald-700 focus:outline-none focus:ring-2 focus:ring-emerald-500">
 							<FiPhone className="w-5 h-5" aria-hidden="true" />
 							<span>Call us now</span>
 						</a>
